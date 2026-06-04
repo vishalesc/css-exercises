@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+
+.one {
+  background-color: rgba(244, 119, 160, 0.825);
+  font-family: Verdana, sans-serif;
+}
+
+.three {
+  background-color: rgba(244, 119, 160, 0.825);
+  font-family: "DejaVu Sans", sans-serif;
+}
+
+.five {
+  background-color: rgba(244, 119, 160, 0.825);
+  font-family: Verdana, sans-serif;
+}
+
+.three {
+  font-size: 24px;
+}
+
+#second {
+  font-size: 36px;
+  color: blue;
+}
+
+#fourth {
+  font-size: 24px;
+  background-color: rgb(89, 197, 89);
+
+}

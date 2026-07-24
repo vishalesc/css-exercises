@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
 }
 
 .icon {
@@ -67,3 +68,34 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* solution starts here */
+
+.modal {
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal .text {
+  padding: 15px 0;
+}
+
+
+.modal .top .header {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
+/* .main {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+} */
